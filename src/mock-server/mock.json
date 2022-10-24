@@ -1,0 +1,47 @@
+{
+  "setup": {
+    "title": "Application Setup",
+    "status": "",
+    "context": [
+      "New sprint, tasks and intro information.",
+      "Application has been accepted",
+      "New sprint, tasks and intro information."
+    ]
+  },
+  "booksList": {
+    "title": "Static Books List",
+    "status": "",
+    "context": [
+      "New sprint, tasks and intro information.",
+      "Application has been accepted",
+      "New sprint, tasks and intro information."
+    ]
+  },
+  "adminPanel": {
+    "title": "Administration Panel",
+    "status": "",
+    "context": [
+      "New sprint, tasks and intro information.",
+      "Application has been accepted",
+      "New sprint, tasks and intro information."
+    ]
+  },
+  "connect": {
+    "title": "Connect Admin with Frontend",
+    "status": "",
+    "context": [
+      "New sprint, tasks and intro information.",
+      "Application has been accepted",
+      "New sprint, tasks and intro information."
+    ]
+  },
+  "review": {
+    "title": "Book Review Feature",
+    "status": "",
+    "context": [
+      "New sprint, tasks and intro information.",
+      "Application has been accepted",
+      "New sprint, tasks and intro information."
+    ]
+  }
+}
