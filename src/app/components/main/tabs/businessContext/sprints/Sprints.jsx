@@ -4,12 +4,15 @@ export const Sprints = () => {
       <ul>
         <li>
           <div>
-            <p></p>
+            <p>NEW</p>
           </div>
-          <span></span>
-          <span></span>
-          <h4></h4>
-          <p></p>
+          <span>Olga Nelson • </span>
+          <span>Dec 17</span>
+          <h4>New sprint, tasks and intro information.</h4>
+          <p>
+            Hi Eric, congratulations on completing the previous assignment. This
+            time you will have to focus on...
+          </p>
         </li>
       </ul>
     </div>
