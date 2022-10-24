@@ -1,8 +1,8 @@
 import Avatar from "assets/avatars/Frame.svg";
 import Logo from "assets/Logo.svg";
+import { MainContext } from "./context/MainContext";
 import s from "./MainContainer.module.css";
 import { Sidebar } from "./sidebar/Sidebar";
-import { Tabs } from "./tabs/Tabs";
 
 export const MainContainer = () => {
   return (
@@ -15,10 +15,10 @@ export const MainContainer = () => {
         </span>
       </div>
       <div className={s.content}>
-          <Sidebar />
-      <Tabs />
+        <Sidebar />
+        <MainContext />
       </div>
-    
+
       <div className={s.footer}>
         <ul>
           <li>Terms of service </li>

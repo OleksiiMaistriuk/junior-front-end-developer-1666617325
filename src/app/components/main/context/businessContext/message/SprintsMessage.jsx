@@ -1,8 +1,8 @@
 import Avatar from "assets/avatars/Frame.svg";
-
+import s from "./SprintsMessage.module.css";
 export const SprintsMessage = () => {
   return (
-    <div>
+    <div className={s.main}>
       <h3>Application has been accepted 🎉 🙌</h3>
       <div>
         <img src={Avatar} alt="" />
