@@ -1,25 +1,32 @@
 import Avatar from "assets/avatars/Frame.svg";
 import Logo from "assets/Logo.svg";
+import s from "./MainContainer.module.css";
 import { Sidebar } from "./sidebar/Sidebar";
 import { Tabs } from "./tabs/Tabs";
 
 export const MainContainer = () => {
   return (
-    <div>
-      <div>
-        <img src={Logo} alt="Logo" />
-        <img src={Avatar} alt="Avatar" />
+    <div className={s.main}>
+      <div className={s.header}>
+        <img src={Logo} className={s.logo} alt="Logo" />
+        <span className={s.avatar}>
+          {" "}
+          <img src={Avatar} alt="Avatar" />
+        </span>
       </div>
       <Sidebar />
       <Tabs />
-      <div>
+      <div className={s.footer}>
         <ul>
-          <li>Terms of service</li>
+          <li>Terms of service </li>
+          <li>• </li>
           <li>Privacy policy</li>
+          <li>•</li>
           <li>Copyright</li>
         </ul>
         <ul>
           <li>nerds.family Version 1.2</li>
+          <li>•</li>
           <li>Last update 10/09/2022</li>
         </ul>
       </div>
