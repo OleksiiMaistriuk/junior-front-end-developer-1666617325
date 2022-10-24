@@ -1,7 +1,9 @@
+import s from "./SidebarHeader.module.css";
+
 export const SidebarHeader = () => {
   return (
-    <div>
-      <h2>Your tasks</h2>
-    </div>
+    <>
+      <h3 className={s.header}>YOUR TASKS</h3>
+    </>
   );
 };

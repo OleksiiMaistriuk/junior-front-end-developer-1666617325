@@ -14,8 +14,11 @@ export const MainContainer = () => {
           <img src={Avatar} alt="Avatar" />
         </span>
       </div>
-      <Sidebar />
+      <div className={s.content}>
+          <Sidebar />
       <Tabs />
+      </div>
+    
       <div className={s.footer}>
         <ul>
           <li>Terms of service </li>

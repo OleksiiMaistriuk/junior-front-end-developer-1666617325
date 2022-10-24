@@ -1,0 +1,22 @@
+.main {
+
+  padding: 27px 0 0 23px;
+}
+.task {
+  display: flex;
+  justify-content: start;
+
+  margin-bottom: 15px;
+}
+.task img {
+  width: 16px;
+
+  margin-right: 8px;
+}
+.task p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #242325;
+}
