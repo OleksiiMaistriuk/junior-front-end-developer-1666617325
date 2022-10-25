@@ -1,3 +1,43 @@
 .main {
   width: 700px;
+  padding: 17px 26px 17px 35px;
+}
+.title {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 33px;
+  color: #242325;
+  margin-bottom: 11px;
+}
+.subTitle {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  gap: 8px;
+}
+.subTitle p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #242325;
+}
+.subTitle span {
+  font-size: 10px;
+  line-height: 14px;
+  color: #6b778c;
+}
+
+.context {
+  display: flex;
+}
+
+.context img {
+  width: 42px;
+  height: 42px;
+  margin-right: 16px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #6b778c;
 }
