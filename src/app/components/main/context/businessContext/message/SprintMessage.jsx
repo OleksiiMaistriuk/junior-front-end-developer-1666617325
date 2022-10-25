@@ -1,6 +1,6 @@
 import Avatar from "assets/avatars/Frame.svg";
-import s from "./SprintsMessage.module.css";
-export const SprintsMessage = () => {
+import s from "./SprintMessage.module.css";
+export const SprintMessage = () => {
   return (
     <div className={s.main}>
       <h3 className={s.title}>Application has been accepted 🎉 🙌</h3>

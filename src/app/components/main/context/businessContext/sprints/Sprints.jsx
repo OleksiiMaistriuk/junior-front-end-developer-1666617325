@@ -1,14 +1,20 @@
+import { useState } from "react";
 import s from "./Sprints.module.css";
-
 export const Sprints = () => {
+  const [selected, setSelected] = useState(true);
+
   return (
-    <div className={s.main}>
+    <div className={s.main} onClick={() => setSelected(false)}>
       <ul>
         <li className={s.card}>
           <div className={s.cardTitle}>
-            <div className={s.new}>
-              <p>NEW</p>
-            </div>
+            {selected ? (
+              <div className={s.new}>
+                <p>NEW</p>
+              </div>
+            ) : (
+              ""
+            )}
             <span>Olga Nelson</span>
             <span> • </span>
             <span>Dec 17</span>
