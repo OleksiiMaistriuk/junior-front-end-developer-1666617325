@@ -9,11 +9,12 @@ export const Sprints = () => {
             <div className={s.new}>
               <p>NEW</p>
             </div>
-            <span>Olga Nelson • </span>
+            <span>Olga Nelson</span>
+            <span> • </span>
             <span>Dec 17</span>
           </div>
           <h4>New sprint, tasks and intro information.</h4>
-          <p>
+          <p className={s.text}>
             Hi Eric, congratulations on completing the previous assignment. This
             time you will have to focus on...
           </p>
