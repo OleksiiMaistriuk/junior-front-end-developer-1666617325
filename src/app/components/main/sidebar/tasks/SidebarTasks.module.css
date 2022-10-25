@@ -8,10 +8,15 @@
 }
 .task img {
   width: 16px;
-
   margin-right: 8px;
 }
-.task p {
+/* .task p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #242325;
+} */
+.task a {
+  text-decoration: none;
   font-size: 12px;
   line-height: 18px;
   color: #242325;

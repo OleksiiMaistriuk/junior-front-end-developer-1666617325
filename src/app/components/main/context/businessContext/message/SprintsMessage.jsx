@@ -5,7 +5,10 @@ export const SprintsMessage = () => {
     <div className={s.main}>
       <h3 className={s.title}>Application has been accepted 🎉 🙌</h3>
       <div className={s.context}>
-        <img src={Avatar} alt="" />
+        <span className={s.avatar}>
+          <img src={Avatar} alt="avatar" />
+        </span>
+
         <div>
           <div className={s.subTitle}>
             <p>Kirsten Aniston</p>

@@ -1,9 +1,9 @@
 import Avatar from "assets/avatars/Frame.svg";
 import Logo from "assets/Logo.svg";
+import { Route, Routes } from "react-router";
 import { MainContext } from "./context/MainContext";
 import s from "./MainContainer.module.css";
 import { Sidebar } from "./sidebar/Sidebar";
-
 export const MainContainer = () => {
   return (
     <div className={s.main}>
@@ -16,7 +16,9 @@ export const MainContainer = () => {
       </div>
       <div className={s.content}>
         <Sidebar />
-        <MainContext />
+        <Routes>
+          <Route path="/business-context" element={<MainContext />} />
+        </Routes>
       </div>
 
       <div className={s.footer}>

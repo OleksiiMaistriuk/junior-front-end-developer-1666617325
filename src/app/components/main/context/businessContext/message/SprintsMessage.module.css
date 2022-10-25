@@ -30,10 +30,16 @@
   display: flex;
 }
 
-.context img {
+.avatar {
+  border: 1px solid #d4d6da;
+  border-radius: 600px;
+  padding: 2px;
+  margin-right: 16px;
+  height: 42px;
+}
+.avatar img {
   width: 42px;
   height: 42px;
-  margin-right: 16px;
 }
 
 .text {
