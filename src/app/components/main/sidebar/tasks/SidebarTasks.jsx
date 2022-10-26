@@ -17,7 +17,11 @@ export const SidebarTasks = () => {
       <ul>
         <li className={s.task}>
           <img src={GreenIcon} alt="" />
-          <NavLink onClick={() => biggestStatus(1)} className={s.link} to={`/`}>
+          <NavLink
+            onClick={() => biggestStatus(1)}
+            className={s.link}
+            to={`/business-context`}
+          >
             Application Setup
           </NavLink>
         </li>
@@ -46,7 +50,7 @@ export const SidebarTasks = () => {
           <NavLink
             onClick={() => biggestStatus(4)}
             className={status >= 3 ? s.link : s.notActive}
-            to={`/business-context`}
+            to={`/`}
           >
             Connect Admin with Frontend
           </NavLink>

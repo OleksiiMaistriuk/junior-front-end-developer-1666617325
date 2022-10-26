@@ -13,9 +13,8 @@ export const MessageDetails = ({ messageDetails }) => {
           <div className={s.subTitle}>
             <p>{messageDetails.author}</p>
             <span>•</span>
-            <span> Today, 17th December </span>
-            <span>•</span>
-            <span>{messageDetails.created}</span>
+
+            <span>{messageDetails.date}</span>
           </div>
 
           <p className={s.text}> {messageDetails.text}</p>
