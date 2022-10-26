@@ -1,18 +1,10 @@
-.main {
-  width: 321px;
-  background: #f4f5f7;
-  border-radius: 10px 0px 0px 0px;
-  margin: 0 0 4px 4px;
-  padding: 12px 8px;
-  cursor: pointer;
-}
-
 .card {
   background: #fff;
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 14px 18px 19px 20px;
   margin-bottom: 8px;
+  height: 73px;
 }
 .active {
   /* background: #000; */
@@ -59,4 +51,10 @@
   font-size: 10px;
   line-height: 14px;
   color: #6b778c;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }

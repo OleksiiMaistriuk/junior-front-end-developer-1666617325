@@ -1,16 +1,17 @@
 import { useState } from "react";
-import s from "./Sprints.module.css";
-export const Sprints = () => {
+import s from "./MessageCard.module.css";
+export const MessageCard = ({ onSetDatails, title, text, author, created }) => {
   const [selected, setSelected] = useState(true);
   const [active, setActive] = useState(false);
 
   const handleClick = (e) => {
     setSelected(false);
     setActive(!active);
+    onSetDatails({ title, text, author, created });
     console.log(e);
   };
   return (
-    <div className={s.main}>
+    <>
       <ul>
         <li
           onClick={(e) => handleClick(e)}
@@ -28,17 +29,14 @@ export const Sprints = () => {
             ) : (
               ""
             )}
-            <span>Olga Nelson</span>
+            <span>{author}</span>
             <span> • </span>
-            <span>Dec 17</span>
+            <span>{created}</span>
           </div>
-          <h4>New sprint, tasks and intro information.</h4>
-          <p className={s.text}>
-            Hi Eric, congratulations on completing the previous assignment. This
-            time you will have to focus on...
-          </p>
+          <h4>{title}</h4>
+          <p className={s.text}>{text}</p>
         </li>
       </ul>
-    </div>
+    </>
   );
 };
