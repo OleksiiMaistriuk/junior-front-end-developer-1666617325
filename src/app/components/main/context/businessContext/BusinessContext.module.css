@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  height: 718px;
+  width: 1040px;
+}
+.messageList {
+  width: 321px;
+  background: #f4f5f7;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 0 4px 4px;
+  padding: 12px 8px;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* ::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-skrollbar-thumb {
+  background: #000;
+} */

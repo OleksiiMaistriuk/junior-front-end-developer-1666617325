@@ -1,0 +1,43 @@
+.main {
+  padding: 27px 0 0 23px;
+}
+.task {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+.task img {
+  width: 16px;
+  margin-right: 8px;
+}
+/* .task p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #242325;
+} */
+.link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+  position: relative;
+  color: #242325;
+}
+
+.link:focus::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../../../../assets/markers/blue-icon.svg");
+  left: -24px;
+  width: 16px;
+  height: 18px;
+  background-color: #fff;
+}
+
+.notActive {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 18px;
+  pointer-events: none;
+  cursor: default;
+  color: #aeb5c1;
+}
